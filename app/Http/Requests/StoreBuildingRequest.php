@@ -35,6 +35,6 @@ class StoreBuildingRequest extends FormRequest
     {
         return [
             'name.required' => 'Please enter the name'
-        ]
+        ];
     }
 }
